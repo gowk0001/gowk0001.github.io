@@ -1,0 +1,696 @@
+/* UNIVERSAL STYLES */
+
+button.getstarted {
+    background-color: #26A682;
+    border: none;
+    color: white;
+    width: 340px;
+    height: 65px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+}
+
+p {
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+p2 {
+    font-family: raleway, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 72px;
+}
+
+h2 {
+    font-family: raleway, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 40px;
+}
+
+h3 {
+    color: #26A682;
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+}
+
+header {
+    background-color: #3C3B3A;
+    height: 75px;
+    width: 100%;
+}
+
+.nav {
+    float: right;
+    padding: 30px;
+}
+
+.arc {
+    height: 75px;
+    width: auto;
+    margin-left: 140px;
+}
+
+a {
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F2F2F2;
+    font-size: 18px;
+}
+
+a .active {
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+}
+
+/* HOME PAGE */
+
+.president {
+    background-color: #3C3B3A;
+    height: 250px;
+    width: 100%;
+    color: #F2F2F2;
+    display: inline-flex;
+    padding: 40px 0px 40px 0px;
+    justify-content: space-evenly;
+}
+
+.simonname {
+    font-family: raleway, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.simonquote {
+    display: inline-block;
+    font-family: raleway, sans-serif;
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 60px;
+    width: 1089px;
+    height: auto;
+}
+
+.simon {
+    border-radius: 50%;
+    border: 5px solid #F2F2F2;
+    width: 175px;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.home-banner {
+    width: 1641px;
+    height: 882px;
+    display: flex;
+    flex-direction: row;
+}
+
+.banner-content {
+    width: 536px;
+    height: auto;
+}
+
+.imgcontainer {
+    width: 813px;
+    height: 337px;
+}
+
+.ferris {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.discoverp {
+    font-family: raleway, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 35px;
+    width: 787px;
+}
+
+.discover {
+    width: 1641px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.discoverac {
+    float: right;
+    flex-direction: column;
+    width: 798px;
+    height: auto;
+    margin-right: 250px;
+}
+
+.learnmore {
+    background-color: #26A682;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    font-family: raleway, sans-serif;
+    font-size: 40px;
+    width: 230px;
+    height: 45px;
+    font-size: 27px;
+    font-weight: 700;
+    font-style: normal;
+    float: right;
+}
+
+.divmiddle {
+    float: middle;
+    flex-direction: column;
+    width: 377px;
+    height: 175px;
+}
+
+.divright {
+    float: right;
+    flex-direction: column;
+    width: 1089px;
+    height: 175px;
+}
+
+.drinkimg {
+    width: 650px;
+    height: 275px;
+    float: right;
+    margin-top: 75px;
+}
+
+.drinks {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.drinksp {
+    font-family: raleway, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 35px;
+    width: 725px;
+    height: auto;
+}
+
+.enttext {
+    display: flex;
+    flex-direction: column;
+}
+
+.entertainment {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    background-color: #3C3B3A;
+    color: #F2F2F2;
+    height: 125px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+
+.footer-title {
+    display: flex;
+    position: absolute;
+}
+
+.icons {
+    display: flex;
+    padding: 75px 10px 10px 10px;
+    float: left;
+    position: absolute;
+}
+
+.button-div {
+    margin-left: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-top {
+    font-family: raleway, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    font-size: 16px;
+    background-color: #3C3B3A;
+    border: none;
+}
+
+.arrow-button {
+    margin-left: 25px;
+}
+
+.icon1 {
+    padding: 5px;
+}
+
+.icon2 {
+    padding: 5px;
+}
+
+.icon3 {
+    padding: 5px;
+}
+
+.icon4 {
+    padding: 5px;
+}
+
+
+/* CONTACT PAGE */
+
+.hearfromyou {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    padding: 70px;
+    justify-content: space-between;
+}
+
+
+.contact-form {
+    background-color: #26A682;
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 650px;
+    color: #F2F2F2;
+    border-radius: 25px;
+    padding: 0 25px 10px 25px;
+}
+
+
+/* FORM SPACING */
+
+.input1 {}
+
+.input2 {}
+
+.input3 {}
+
+.input4 {}
+
+/* FORM SPACING */
+
+.formname {
+    margin-bottom: 15px;
+}
+
+.formnumber {
+    margin: 15px 0 15px 0;
+}
+
+.formemail {
+    margin: 15px 0 15px 0;
+}
+
+.formmessage {
+    margin: 15px 0 15px 0;
+}
+
+.contact-title {
+    font-size: 50px;
+}
+
+input {
+    border-radius: 25px;
+    color: #3C3B3A;
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+    border: none;
+    width: 425px;
+    height: 20px;
+}
+
+textarea {
+    border-radius: 10px;
+    color: #3C3B3A;
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+    border: none;
+    width: 425px;
+    height: 125px;
+}
+
+.submit-button {
+    background-color: #3C3B3A;
+    border: none;
+    color: white;
+    width: 225px;
+    height: 65px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.submit-btn-div {
+    margin-left: 220px;
+}
+
+.contact-us {
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #3C3B3A;
+}
+
+.contactdiv {
+    display: flex;
+    flex-direction: row;
+    margin-top: none;
+    padding: 50px;
+}
+
+.contact {
+    float: left;
+    margin-right: 20px;
+    width: 55%;
+}
+
+.wewant {
+    font-size: 55px;
+    max-width: 95%;
+}
+
+.contactimg {
+    max-width: 85%;
+    margin-top: 40px;
+}
+
+.map {
+    margin-top: 100px;
+    width: 50%;
+}
+
+.location {
+    width: 50%;
+}
+
+/* ABOUT PAGE */
+
+.about-banner {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+
+.bannerimg {
+    width: 100%;
+    height: 275px;
+    position: relative;
+}
+
+.banner1 {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    position: relative;
+}
+
+.banner1div {
+    position: relative;
+}
+
+.thank-you {
+  width: auto;
+}
+
+.climbing {
+    width: auto;
+}
+
+
+/*mobile*/
+
+@media screen and (max-width: 575px) {
+
+
+
+    .button-div {
+        margin-left: 50px;
+    }
+
+    .arc {
+        margin-left: 10px;
+    }
+
+    .drinkimg {
+        width: auto;
+    }
+
+    .entertainment {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .drinksp {
+        font-family: raleway, sans-serif;
+        font-style: normal;
+        font-size: 15px;
+        width: auto;
+    }
+
+    .discover {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .ferris {
+        width: auto;
+    }
+
+    .discoverac {
+        width: auto;
+    }
+
+    .book {
+        width: 475px;
+    }
+
+    .home-banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        background-color: #3C3B3A;
+        height: 225px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-banner {
+        margin-top: 100px;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .para1 {
+        width: auto;
+        font-family: raleway, sans-serif;
+        font-style: normal;
+        font-size: 15px;
+    }
+
+    .president {
+        background-color: #3C3B3A;
+        height: auto;
+        width: 100%;
+        color: #F2F2F2;
+        display: flex;
+        flex-direction: column
+    }
+
+    .map {
+    
+    }
+
+    .conntactdiv {
+        display: flex;
+        flex-direction: column-reverse;
+      
+        
+    }
+    
+    .location {
+        position: absolute;
+        margin-bottom: 200px;
+    }
+    
+    .hearfromyou {
+        
+    }
+
+}
+
+
+
+/*tablet*/
+
+@media screen and (max-width: 875px) {
+
+
+
+    .button-div {
+        margin-left: 325px;
+    }
+
+    .arc {
+        margin-left: 10px;
+    }
+
+    .drinkimg {
+        width: auto;
+    }
+
+    .entertainment {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .drinksp {
+        font-family: raleway, sans-serif;
+        font-style: normal;
+        font-size: 15px;
+        width: auto;
+    }
+
+    .discover {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-top: 200px;
+    }
+
+    .ferris {
+        width: auto;
+    }
+
+    .discoverac {
+        width: auto;
+    }
+
+    .book {
+        width: 675px;
+    }
+
+    .home-banner {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .header {
+        background-color: #3C3B3A;
+        height: 225px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-content {
+        width: auto;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .president {
+        background-color: #3C3B3A;
+        height: auto;
+        width: 100%;
+        color: #F2F2F2;
+        display: flex;
+        flex-direction: column
+    }
+
+}
